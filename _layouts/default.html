@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+  </head>
+
+  <body>
+    <header>
+      <h1><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p class="tagline">Informatics &amp; Data Science @ UMass Amherst • AI • Full-Stack • Analytics</p>
+
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/#contact' | relative_url }}">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>© {{ "now" | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+  </body>
+</html>
