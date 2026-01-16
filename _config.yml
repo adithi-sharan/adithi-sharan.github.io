@@ -1,2 +1,12 @@
-title: Portfolio
-theme: minima
+title: Adithi Sharan
+email: adithi@thesharans.com
+url: "https://adithi-sharan.github.io"
+timezone: America/Chicago
+
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
