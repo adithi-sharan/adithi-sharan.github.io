@@ -3,7 +3,7 @@ title: Home
 ---
 
 <div class="section">
-  <h2>Hi, I'm Adithi 👋</h2>
+  <h2>Hi, I'm Adithi </h2>
   <p>
     I’m an Informatics &amp; Data Science student building AI-powered, data-driven products across full-stack engineering, machine learning, and analytics.
   </p>
